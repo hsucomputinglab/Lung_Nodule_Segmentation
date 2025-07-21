@@ -1,6 +1,6 @@
 # Vital-Net: Transformer-Enhanced Segmentation for Lung Nodules
 
-This repository supports the lung nodule segmentation component of the thesis:
+This repository supports the lung nodule segmentation component of the proceedings:
 
 > **“Vital-Net: Vision Integrated Transformer and Attention Network for Lung Nodule Segmentation on Full-Scale Images”**  
 > *https://www.researchgate.net/publication/391155595_Vital-Net_Vision_Integrated_Transformer_and_Attention_Network_for_Lung_Nodule_Segmentation_on_Full-Scale_Images/citations*
