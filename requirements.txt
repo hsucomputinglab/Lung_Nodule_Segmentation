@@ -1,0 +1,16 @@
+MedPy
+pylidc
+tqdm
+medpy
+albumentations
+efficientnet-pytorch
+h5py
+imageio
+numpy
+opencv-python
+pandas
+Pillow
+scikit-learn
+scipy
+torch
+torchvision
