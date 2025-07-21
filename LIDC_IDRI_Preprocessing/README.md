@@ -89,7 +89,7 @@ This will:
 ### `data_std/`
 Contains all preprocessed outputs:
 
-- `_Clean/`: Holds clean slices **without** nodules for generalization testing.
+- `Clean/`: Holds clean slices **without** nodules for generalization testing.
 - `Image/`: Patient-wise folders with image slices.
 - `Mask/`: Patient-wise folders with corresponding masks.
 - `Meta/`: Contains `meta_info_std.csv` with malignancy ratings, slice positions, and splits.
