@@ -39,74 +39,42 @@ pip install -r requirements.txt
 ```
 
 +-- networks
-
 |    # This folder contains the model code for 8's network architecture
-
 +-- meta_csv
-
 |    # This folder contains information of each images in a csv format. 
-
 |    # The csv will then work as input to the std_train.py
-
 +-- notebook
-
 |    # This folder contains jupyter notebook files for some visuialization
-
 +-- std_dataset_train.py
-
 |    # (For training) Dataset class for Pytorch, accepts .npy file format
-
 +-- std_dataset_validate.py
-
 |    # (For validation) Dataset class for Pytorch, accepts .npy file format
-
 +-- losses.py
-
 |    # Loss function. Here I use the BCE dice loss and Dice loss. 
-
 +-- metrics.py
-
      # Metric function. Here I use the DSC and IOU. It is interesting to note that somehow the dice coefficient doesn't increase as fast as IOU in the early stages of training.
-
 +-- std_train.py
-
 |    # Training of Segmentation model. Adjust hyperparameters
-
 +-- utils.py
-
 |    # Utility file
-
 +-- std_validate.py
-
 |    # For validation of the model
-
-
-
 ```
-
-
 
 # Training
 
 1. Train the model.
 ```python
-
 # Training
-
 python std_train.py --name UNET #or
-
 python std_train.py --name scSENetwork
-
 ```
 
 
 2. Validate the model
 ```python 
-
 python std_validate.py --name UNET #or
-
 python std_validate.py --name ViTNetwork
-
 ```
 ## Acknowledgements
 
@@ -130,4 +98,3 @@ Please refer to the [original repo](https://github.com/jaeho3690/LIDC-IDRI-Segme
 If this repository helps your research, please consider citing the thesis:
 
 > Lautan, Devin. *Vital-Net: Vision Integrated Transformer and Attention Network for Lung Nodule Segmentation on Full-Scale Images*, 2025. [DOI / ResearchGate](https://www.researchgate.net/publication/391155595_Vital-Net_Vision_Integrated_Transformer_and_Attention_Network_for_Lung_Nodule_Segmentation_on_Full-Scale_Images)
-
