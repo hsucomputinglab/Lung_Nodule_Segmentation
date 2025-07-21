@@ -53,6 +53,7 @@ Please refer to each folder for more detailed explanation.
 ## Acknowledgement
 Here is the link of github where I learned a lot from. Some of the codes are sourced from below.
 https://github.com/jaeho3690/LIDC-IDRI-Preprocessing
+https://github.com/jaeho3690/LIDC-IDRI-Segmentation
 
 ## 📝 Citation
 
